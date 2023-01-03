@@ -1,0 +1,14 @@
+<suite name="Suite">
+    <test  name="Test">
+        <groups>
+            <run>
+                <include name="sanity"/>
+                <exclude name="regression"/>
+            </run>
+        </groups>
+        <classes>
+<!--            <class name="Practice_testNg.Prc_testNg"/>-->
+            <class name="com.app.pages.DocumentationPage"/>
+        </classes>
+    </test>
+</suite>
